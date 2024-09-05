@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkDialog" id="DingAppChooser">
+    <property name="use_header_bar">1</property>
+    <property name="title" translatable="yes">Open File</property>
+    <property name="focusable">False</property>
+    <property name="destroy-with-parent">True</property>
+    <property name="modal">True</property>
+    <property name="default-width">420</property>
+    <property name="default-height">560</property>
+    <child internal-child="content_area">
+      <object class="GtkBox" id="content_area">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkStack">
+            <property name="hexpand">True</property>
+            <child>
+              <object class="GtkStackPage">
+                <property name="name">list</property>
+                <property name="child">
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkScrolledWindow">
+                        <property name="hscrollbar-policy">never</property>
+                        <property name="vscrollbar-policy">never</property>
+                        <property name="vexpand">true</property>
+                        <style>
+                          <class name="background"/>
+                        </style>
+                        <property name="child">
+                          <object class="AdwClamp">
+                            <property name="margin-top">18</property>
+                            <property name="margin-bottom">18</property>
+                            <property name="margin-start">18</property>
+                            <property name="margin-end">18</property>
+                            <property name="child">
+                              <object class="GtkBox">
+                                <property name="orientation">vertical</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel" id="label_description">
+                                    <property name="wrap">True</property>
+                                    <property name="wrap-mode">PANGO_WRAP_WORD_CHAR</property>
+                                    <property name="justify">center</property>
+                                    <property name="label" translatable="yes">Choose an app to open the selected files.</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkBox" id="app_chooser_widget_box">
+                                    <property name="halign">center</property>
+                                    <property name="vexpand">True</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </property>
+                          </object>
+                        </property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox" id="set_default_box">
+                        <property name="orientation">vertical</property>
+                        <style>
+                          <class name="background"/>
+                        </style>
+                        <child>
+                          <object class="GtkSeparator"/>
+                        </child>
+                        <child>
+                          <object class="GtkListBox">
+                            <style>
+                              <class name="background"/>
+                            </style>
+                            <child>
+                              <object class="AdwActionRow" id="set_default_row">
+                                <property name="hexpand">true</property>
+                                <property name="selectable">false</property>
+                                <property name="activatable-widget">set_as_default_switch</property>
+                                <property name="title" translatable="yes">Always use for this file type</property>
+                                <child>
+                                  <object class="GtkSwitch" id="set_as_default_switch">
+                                    <property name="halign">end</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child type="action">
+      <object class="GtkButton" id="cancel_button">
+        <property name="label" translatable="yes">_Cancel</property>
+        <property name="use-underline">True</property>
+      </object>
+    </child>
+    <child type="action">
+      <object class="GtkButton" id="ok_button">
+        <property name="label" translatable="yes">_Open</property>
+        <property name="use-underline">True</property>
+        <property name="sensitive">False</property>
+      </object>
+    </child>
+    <action-widgets>
+      <action-widget response="ok" default="true">ok_button</action-widget>
+      <action-widget response="cancel">cancel_button</action-widget>
+    </action-widgets>
+  </object>
+</interface>

@@ -1,0 +1,72 @@
+/*
+Local file for to specify styles for desktop icons
+
+@define-color desktop_icons_bg_color @theme_selected_bg_color;
+@define-color desktop_icons_fg_color @theme_selected_fg_color;
+
+The above colors are set using javascript code in DesktopManager
+with sane fallbacks if theme_slected_colors do not exist,
+and then injected into Gdk.Display css before this file is read in and added.
+*/
+
+box > label.file-label {
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-shadow: 0.6px 0.7px 1px black, 0.1em 0.1em 0.1em black;
+    color: white;
+}
+
+box > label.file-label-dark {
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-shadow: 0.6px 0.7px 1px white,  0.1em 0.1em 0.1em white;
+    color: black;
+}
+
+box > label.file-label-vertical {
+    /* Twice the padding set in box #file-item below to keep spacing between
+    icon and label constant with shape change */
+    margin-top: 4px;
+}
+
+box > #file-item {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+box > #file-item:hover {
+   background-color: alpha(@desktop_icons_fg_color, 0.3);
+}
+
+box > #file-item.mimic-hovered {
+   background-color: alpha(@desktop_icons_fg_color, 0.3);
+}
+
+box > #file-item.desktop-icons-selected {
+    background-color: alpha(@desktop_icons_bg_color, 0.6);
+}
+
+.not-found {
+    color: rgb(255, 0, 0);
+}
+
+#desktopwindow.background {
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+#testwindow.background{
+    background-color: black;
+    border-radius: 0px;
+}
+
+.unhighlightdroptarget:drop(active) {
+    box-shadow: none;
+}
+
+#DingAppChooser treeview {
+    min-height: 36px;
+    -gtk-icon-size: 32px;
+}

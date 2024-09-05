@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+
+    <schema path="/org/gnome/shell/extensions/tilingshell/" id="org.gnome.shell.extensions.tilingshell">
+        <key name="last-version-name-installed" type="s">
+            <default>"0"</default>
+            <summary>Last version installed</summary>
+            <description>Last version installed of this extension.</description>
+        </key>
+        <key name="enable-tiling-system" type="b">
+            <default>true</default>
+            <summary>Enable tiling system</summary>
+            <description>Hold CTRL while moving a window to tile it.</description>
+        </key>
+        <key name="tiling-system-activation-key" type="as">
+            <default>[]</default>
+            <summary>Tiling system activation key</summary>
+            <description>Which key to hold while moving a window to activate the tiling system.</description>
+        </key>
+        <key name="enable-snap-assist" type="b">
+            <default>true</default>
+            <summary>Enable snap assist</summary>
+            <description>Move the window on top of the screen to snap assist it.</description>
+        </key>
+        <key name="show-indicator" type="b">
+            <default>true</default>
+            <summary>Shows indicator</summary>
+            <description>Shows an indicator on top panel.</description>
+        </key>
+        <key name="inner-gaps" type="u">
+            <default>16</default>
+            <summary>Inner gaps</summary>
+            <description>Internal gaps between tiles in a layout.</description>
+        </key>
+        <key name="outer-gaps" type="u">
+            <default>8</default>
+            <summary>Outer gaps</summary>
+            <description>External gaps between the layout and the monitor borders.</description>
+        </key>
+        <key name="enable-span-multiple-tiles" type="b">
+            <default>true</default>
+            <summary>Span multiple tiles</summary>
+            <description>Hold ALT to span multiple tiles.</description>
+        </key>
+        <key name="span-multiple-tiles-activation-key" type="as">
+            <default>[]</default>
+            <summary>Key to span multiple tiles</summary>
+            <description>Which key to hold to span multiple tiles.</description>
+        </key>
+        <key name="layouts-json" type="s">
+            <default>'[]'</default>
+            <summary>Layouts</summary>
+            <description>The layouts available to the tiling managers and the snap assist.</description>
+        </key>
+        <key name="selected-layouts" type="as">
+            <default>[]</default>
+            <summary>Selected layouts</summary>
+            <description>Each monitor's active layout used by the monitor tiling manager.</description>
+        </key>
+        <key name="restore-window-original-size" type="b">
+            <default>true</default>
+            <summary>Restore window size</summary>
+            <description>Restore the windows to their original size when untiled.</description>
+        </key>
+        <key name="resize-complementing-windows" type="b">
+            <default>true</default>
+            <summary>Enable auto-resize of the complementing tiled windows</summary>
+            <description>When a tiled window is resized, auto-resize the other tiled windows near it.</description>
+        </key>
+        <key name="enable-blur-snap-assistant" type="b">
+            <default>false</default>
+            <summary>Enable Snap Assistant blur</summary>
+            <description>Blur snap assistant</description>
+        </key>
+        <key name="enable-blur-selected-tilepreview" type="b">
+            <default>false</default>
+            <summary>Enable selected tile preview blur</summary>
+            <description>Blur selected tile previews</description>
+        </key>
+        <key name="enable-move-keybindings" type="b">
+            <default>true</default>
+            <summary>Enable keybindings</summary>
+            <description>Move focused window through tiles by using keybindings.</description>
+        </key>
+        <key name="overridden-settings" type="s">
+            <default>'{}'</default>
+            <summary>Overridden settings</summary>
+            <description>The settings that are overridden and their old value.</description>
+        </key>
+        <key name="active-screen-edges" type="b">
+            <default>true</default>
+            <summary>Active Screen Edges</summary>
+            <description>Drag windows against the top, left and right screen edges to resize them.</description>
+        </key>
+        <key name="top-edge-maximize" type="b">
+            <default>false</default>
+            <summary>Drag agains top edge to maximize window</summary>
+            <description>Drag windows against the top edge to maximize them</description>
+        </key>
+        <key name="override-window-menu" type="b">
+            <default>true</default>
+            <summary>Add snap assistant and auto-tile buttons to window menu</summary>
+            <description>Add snap assistant and auto-tile buttons in the menu that shows up when you right click on a window title.</description>
+        </key>
+        <key name="snap-assistant-threshold" type="i">
+            <default>54</default>
+            <summary>Snap Assistant threshold</summary>
+            <description>Snap Assistant's threshold to enlarge, shrink, open and close it.</description>
+        </key>
+        <key name="quarter-tiling-threshold" type="u">
+            <default>40</default>
+            <summary>Quarter tiling threshold</summary>
+            <description>Threshold to trigger quarter tiling.</description>
+        </key>
+
+        <!-- keybindings -->
+		<key type="as" name="move-window-right">
+			<default><![CDATA[['<Super>Right']]]></default>
+			<summary>Move focused window to the tile to its right</summary>
+		</key>
+		<key type="as" name="move-window-left">
+			<default><![CDATA[['<Super>Left']]]></default>
+			<summary>Move focused window to the tile to its left</summary>
+		</key>
+		<key type="as" name="move-window-up">
+			<default><![CDATA[['<Super>Up']]]></default>
+			<summary>Move focused window to the tile above</summary>
+		</key>
+		<key type="as" name="move-window-down">
+			<default><![CDATA[['<Super>Down']]]></default>
+			<summary>Move focused window to the tile below</summary>
+		</key>
+    </schema>
+
+</schemalist>

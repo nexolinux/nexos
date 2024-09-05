@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,nexuser
+network:x:90:nexuser
+power:x:98:nexuser
+adm:x:999:nexuser
+wheel:x:998:nexuser
+uucp:x:987:nexuser
+optical:x:990:nexuser
+rfkill:x:983:nexuser
+video:x:986:nexuser
+storage:x:988:nexuser
+audio:x:995:nexuser
+users:x:985:nexuser
+nopasswdlogin:x:966:nexuser
+autologin:x:967:nexuser
+nexuser:x:1000:

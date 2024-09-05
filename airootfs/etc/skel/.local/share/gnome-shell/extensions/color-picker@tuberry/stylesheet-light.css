@@ -1,0 +1,38 @@
+.color-picker-label {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0.3em;
+  min-width: 6em;
+  font-size: 1.4em;
+  border-radius: 0.4em;
+  background-color: #dfdcd8;
+  border: 0.05em solid rgba(0, 0, 0, 0.2);
+  /* box-shadow leads afterimage when moving */
+}
+
+.color-picker-button {
+  padding: 0 0.5em;
+}
+
+.color-picker-systray:state-busy {
+  color: #1b6acb;
+}
+
+.color-picker-item-label {
+  font-family: monospace;
+}
+
+.color-picker-item-label:focus {
+  outline: 0.15em solid rgba(53, 132, 228, 0.7);
+}
+
+.color-picker-icon {
+  padding: 0 0.15em;
+}
+
+.color-picker-icon:hover {
+  color: #1f76e1;
+}
+
+.color-picker-icon:focus {
+  outline: 0.15em solid rgba(53, 132, 228, 0.7);
+}

@@ -1,0 +1,3 @@
+# here to edit gdm logo
+[org/gnome/login-screen]
+logo='/usr/share/nexus/nexus-logo.png'

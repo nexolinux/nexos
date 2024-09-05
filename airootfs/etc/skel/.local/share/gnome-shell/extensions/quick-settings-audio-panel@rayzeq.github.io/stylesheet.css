@@ -1,0 +1,65 @@
+.QSAP-panel-grid {
+	box-shadow: none;
+}
+
+.QSAP-panel-separated {
+	/* Add spacing between panels */
+	margin-bottom: 5px;
+	margin-left: 5px;
+	/* There is too much blank space in the top and bottom of the new panel, we reduce it */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.QSAP-panel-merged {
+	/* There is too much blank space in the bottom of the new panel, we remove it.
+	 * Unfortunatly, negative margins are not supported so we can't */
+	/*margin-bottom: -10px;*/
+}
+
+.QSAP-media-section .message {
+	/* Prevent the text from getting too large */
+	width: 100px;
+}
+
+.QSAP-media-section-optional {
+	/* Add margins because it's too close to sliders */
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.QSAP-media-section-optional .message {
+	/* Make margins smaller */
+	margin: 2px 0px 0px 0px;
+	/* Smoother corners */
+	border-radius: 22px;
+	/* Allow for a more compact layout */
+	margin: 0px;
+}
+
+.QSAP-media-section-optional .message-icon-bin {
+	/* Compact layout */
+	padding: 12px;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.QSAP-media-section-optional .media-message-cover-icon.fallback {
+	/* Make the fallback icon (the note) the same size as other icons */
+	padding: 9px;
+}
+
+.QSAP-media-section-optional .message-media-control {
+	/* Move control buttons closer to each other */
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.QSAP-application-volume-slider-label {
+	/* Align text with bar */
+	padding-left: 6px;
+	/* Make the text smaller */
+	font-size: 0.92em;
+	/* Nice ellepsis if the text overflow */
+	text-overflow: ellipsis;
+}

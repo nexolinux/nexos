@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="ca.desrt.dconf-editor.desktop" score="68" last-seen="1725033687"/>
+    <application id="libreoffice-writer.desktop" score="4" last-seen="1725047581"/>
+    <application id="org.gnome.tweaks.desktop" score="25" last-seen="1725047146"/>
+    <application id="io.github.vikdevelop.SaveDesktop.desktop" score="247" last-seen="1725048472"/>
+    <application id="org.gnome.Software.desktop" score="16" last-seen="1725044120"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="0" last-seen="1725037806"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="1" last-seen="1725046539"/>
+    <application id="org.gnome.Terminal.Preferences.desktop" score="2" last-seen="1725036633"/>
+    <application id="org.gnome.Console.desktop" score="0" last-seen="1725036689"/>
+    <application id="org.gnome.Nautilus.desktop" score="68" last-seen="1725048584"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="13" last-seen="1725048583"/>
+    <application id="org.gnome.Weather.desktop" score="0" last-seen="1725046526"/>
+    <application id="org.gnome.font-viewer.desktop" score="82" last-seen="1725033274"/>
+    <application id="org.gnome.Terminal.desktop" score="547" last-seen="1725048482"/>
+    <application id="firefox.desktop" score="244" last-seen="1725047910"/>
+    <application id="org.gnome.Extensions.desktop" score="136" last-seen="1725047224"/>
+    <application id="org.gnome.Settings.desktop" score="31" last-seen="1725048064"/>
+  </context>
+</application-state>

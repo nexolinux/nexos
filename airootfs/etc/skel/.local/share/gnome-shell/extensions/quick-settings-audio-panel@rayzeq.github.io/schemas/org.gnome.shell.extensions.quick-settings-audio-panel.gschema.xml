@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.quick-settings-audio-panel" path="/org/gnome/shell/extensions/quick-settings-audio-panel/">
+    <!-- See also: https://docs.gtk.org/glib/gvariant-format-strings.html -->
+    <key name="move-master-volume" type="b">
+      <default>true</default>
+    </key>
+    <key name="always-show-input-slider" type="b">
+      <default>false</default>
+    </key>
+    <key name="media-control" type="s">
+      <choices>
+        <choice value="none" />
+        <choice value="move" />
+        <choice value="duplicate" />
+      </choices>
+      <default>"move"</default>
+    </key>
+    <key name="create-mixer-sliders" type="b">
+      <default>true</default>
+    </key>
+    <key name="ignore-css" type="b">
+      <default>false</default>
+    </key>
+    <key name="create-sink-mixer" type="b">
+      <default>false</default>
+    </key>
+    <key name="pactl-path" type="s">
+      <default>""</default>
+    </key>
+    <key name="show-current-device" type="b">
+      <default>false</default>
+    </key>
+    <key name="remove-output-slider" type="b">
+      <default>false</default>
+    </key>
+    <key name="merge-panel" type="b">
+      <default>false</default>
+    </key>
+    <key name="panel-position" type="s">
+      <choices>
+        <choice value="top" />
+        <choice value="bottom" />
+      </choices>
+      <default>"bottom"</default>
+    </key>
+    <key name="separate-indicator" type="b">
+      <default>false</default>
+    </key>
+
+    <key name="ordering" type="as">
+      <default>["volume-output", "sink-mixer", "volume-input", "media", "mixer"]</default>
+    </key>
+
+    <key name="filter-mode" type="s">
+      <choices>
+        <choice value="blacklist" />
+        <choice value="whitelist" />
+      </choices>
+      <default>"blacklist"</default>
+    </key>
+    <key name="filters" type="as">
+      <default>[]</default>
+    </key>
+
+    <key name="sink-filter-mode" type="s">
+      <choices>
+        <choice value="blacklist" />
+        <choice value="whitelist" />
+      </choices>
+      <default>"blacklist"</default>
+    </key>
+    <key name="sink-filters" type="as">
+      <default>[]</default>
+    </key>
+  </schema>
+</schemalist>
