@@ -1,4 +1,4 @@
-![Nexos Logo](images/nexos-logo.png)
+![Nexos Logo](images/nexos-logo.png){ width="500" height="109" style="display: block; margin: 0 auto" }
 
 # Nexos OS
 
@@ -99,15 +99,14 @@ Here are some previews of Nexos OS in action:
 
 ### Custom GNOME Desktop
 
-![Custom GNOME Desktop](images/gnome-desktop-image.png)
+![Custom GNOME Desktop](images/gnome-desktop-image.png){style="display: block; margin: 50px auto" }
 
 ### Nexos In Use
 
-![Nexos in use](images/nexos-in-use.png)
-
+![Nexos in use](images/nexos-in-use.png){style="display: block; margin: 50px auto" }
 ### Nexos CLI Tool
 
-![Nexos CLI Tool](images/nexos-cli-tool-image.png)
+![Nexos CLI Tool](images/nexos-cli-tool-image.png){style="display: block; margin: 50px auto" }
 # Building Nexos from Source
 
 To build Nexos, you need to be in an Arch Linux environment. You can use either an Arch Linux OS or WSL (Windows Subsystem for Linux) with Arch Linux installed.
