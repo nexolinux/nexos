@@ -188,6 +188,13 @@ Both Rufus and Balena Etcher will create a bootable USB drive that you can use t
 ## Contributing
 
 Contributions are always welcome!
+- you can fork the repo [here](https://github.com/nexolinux/nexos/fork) 
+- then create your branch and make it such it's name is in the format fix-[fix_name] or feature-[feature-name]
+- after that you can make your fixes or add new features
+- when create a pull request that would be reviewed before merging
+
+### adding new tools to the iso:
+  - if you want to add new tools or applications. all you have to do is to edit the packages.x86_64 file with the correct name of the packages, and please put a comment above it to describe it's use.
 
 Please reach out or create an issue to help us improve.
 ## Acknowledgements
