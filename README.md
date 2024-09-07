@@ -1,5 +1,32 @@
 <div style="text-align:center"><img src="images/nexos-logo.png" alt="Nexos Logo"/></div>
 
+Table of Contents
+=================
+
+* [Nexos OS](#nexos-os)
+   * [Philosophy](#philosophy)
+   * [ISO Install Links:](#iso-install-links)
+   * [Nexos CLI Tool](#nexos-cli-tool)
+   * [Preview](#preview)
+      * [Custom GNOME Desktop](#custom-gnome-desktop)
+      * [Nexos In Use](#nexos-in-use)
+      * [Nexos CLI Tool](#nexos-cli-tool-1)
+* [Building Nexos from Source](#building-nexos-from-source)
+   * [Prerequisites](#prerequisites)
+   * [Building the ISO](#building-the-iso)
+   * [Creating a Bootable USB in linux](#creating-a-bootable-usb-in-linux)
+      * [On linux](#on-linux)
+         * [Steps](#steps)
+      * [On Windows (Using Rufus or Balena Etcher)](#on-windows-using-rufus-or-balena-etcher)
+         * [Using Rufus](#using-rufus)
+         * [Using Balena Etcher](#using-balena-etcher)
+   * [Contributing](#contributing)
+      * [adding new tools to the iso:](#adding-new-tools-to-the-iso)
+   * [Acknowledgements](#acknowledgements)
+   * [Authors](#authors)
+   * [Feedback](#feedback)
+   * [Licenses](#licenses)
+
 # Nexos OS
 
 Nexos is an Arch Linux-based operating system designed specifically for the Nexus Security Club. It aims to provide a user-friendly experience for individuals with any skill level by including all necessary tools and features out of the box.
