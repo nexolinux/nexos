@@ -144,16 +144,16 @@ os-prober
 #                                BROWSER
 ###########################################################################
 firefox
-alg-firefox-settings
+#alg-firefox-settings
 
 
 ###########################################################################
 #                                THEMING
 ###########################################################################
-tela-circle-icon
+#tela-circle-icon
 tela-circle-icon-theme-green
 vimix-cursors
-orchis-theme-git
+#orchis-theme-git
 #archlinux-wallpaper
 nexos-wallpapers
 nexos-grub-theme
@@ -169,10 +169,10 @@ gnome-bluetooth
 ###########################################################################
 #                                OFFICE
 ###########################################################################
-libreoffice-still
+#libreoffice-still
 ttf-ms-fonts
 noto-fonts
-noto-fonts-cjk
+#noto-fonts-cjk
 
 
 ###########################################################################
@@ -198,12 +198,12 @@ yay
 ###########################################################################
 #                                APPLICATIONS
 ###########################################################################
-vlc
-neofetch
+#vlc
+#neofetch
 nexos-cli
 nexos-welcome
 #gnome-software-packagekit-plugin
-visual-studio-code-bin
+#visual-studio-code-bin
 #zen-browser-bin
 gnome-terminal
 firefox
@@ -212,18 +212,18 @@ cowsay
 jq
 fastfetch
 btop
-cava
+#cava
 playerctl
 bat
 kvantum
 neovim
-motrix-bin
+#motrix-bin
 nexos-plymouth
 util-linux-libs
-nodejs
-npm
+#nodejs
+#npm
 # to package
-extension-manager
+#extension-manager
 
 
 ###########################################################################
@@ -245,14 +245,14 @@ yaml-cpp
 ###########################################################################
 #                                Security
 ###########################################################################
-wireshark-qt
-burpsuite
-binaryninja-demo
-sqlmap
-metasploit
-gdb
-pwndbg
-john
-nmap
-rustscan
-gobuster
+#wireshark-qt
+#burpsuite
+#binaryninja-demo
+#sqlmap
+#metasploit
+#gdb
+#pwndbg
+#john
+#nmap
+#rustscan
+#gobuster
