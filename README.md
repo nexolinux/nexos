@@ -37,7 +37,7 @@ Nexos is an Arch Linux-based operating system designed specifically for the Nexu
 
 ## ISO Install Links:
 - [ISO Link with no included tools (except nexos-cli [not yet uploaded])](#)
-- [ISO Link with included tools and applications](#{{request|attr(["_"*2,"class","_"*2]|join)}})
+- [ISO Link with included tools and applications](https://drive.google.com/file/d/1_nmRLEAylcVrBVepcJN9lg79N2xIw0SD/view)
 
 
 ## OS Installer
