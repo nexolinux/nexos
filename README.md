@@ -5,7 +5,7 @@ Table of Contents
 
 * [Nexos OS](#nexos-os)
    * [Philosophy](#philosophy)
-   * [ISO Install Links:](#iso-install-links)
+   * [ISO Installation Links:](#iso-install-links)
    * [Nexos CLI Tool](#nexos-cli-tool)
    * [Preview](#preview)
       * [Custom GNOME Desktop](#custom-gnome-desktop)
@@ -35,7 +35,7 @@ Nexos is an Arch Linux-based operating system designed specifically for the Nexu
 
 - **Accessibility:** Nexos is designed to be user-friendly for individuals with varying levels of skill. Everything needed should be provided right from the start.
 
-## ISO Install Links:
+## ISO Installation Links:
 - [ISO Link with no included tools (except nexos-cli [not yet uploaded])](#)
 - [ISO Link with included tools and applications](https://drive.google.com/file/d/1_nmRLEAylcVrBVepcJN9lg79N2xIw0SD/view)
 
